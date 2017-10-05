@@ -1,0 +1,8 @@
+Assignment 1
+
+
+function 1, 2 and 3 are the functions for the JSON data store named "myProducts".
+Kept data store small and simple though I understood how a data is stored in a JSON. 
+All codes are checked in jsfiddle.
+
+

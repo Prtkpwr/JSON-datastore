@@ -1,0 +1,44 @@
+var stuff = {
+"cat_id": 1,
+"name": "Electronics",
+"sub_cat": [
+
+{
+"product": "USB Cable",
+"availability": true,
+"priceRange": 200
+},
+{
+"product": "AUX Cable",
+"availability": true,
+"price": 115
+},
+{
+"product": "Firewire",
+"availability": false,
+"price": 355
+},
+{
+"product": "Earphones",
+"availability": true,
+"price": 300
+},
+{
+"product": "Type C Cable",
+"availability": true,
+"price": 200
+}
+]
+};
+
+
+// To display all products
+for (x in stuff.sub_cat){
+console.log(stuff.sub_cat[x].product);
+}
+
+//To find by index
+function findByIndex(index){
+console.log(stuff.sub_cat[index].product);
+}
+findByIndex(1);
